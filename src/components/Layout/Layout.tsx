@@ -2,8 +2,8 @@ import React from "react";
 
 interface Props {}
 
-const index = (props: Props) => {
+const Layout = (props: Props) => {
   return <div></div>;
 };
 
-export default index;
+export default Layout;
