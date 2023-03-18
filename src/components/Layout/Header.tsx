@@ -11,18 +11,18 @@ const Header = (props: Props) => {
   const [open, setopen] = React.useState<boolean>(false);
   return (
     <header className="w-full flex flex-col">
-      <div className="h-8 bg-red-400 bg-gradient-to-r from-purple-700 to-pink-700 hidden sm:flex text-white text-xs">
+      <div className="h-8 bg-red-400 bg-gradient-to-r from-purple-700 to-pink-700 flex text-white text-xs">
         <div className="container px-4 xl:px-0 mx-auto flex justify-between items-center">
           <div>
             <a
-              className="flex items-center"
+              className="flex items-center text-xs"
               href="mailto:omolara.tlawson@gmail.com"
             >
-              <TbBrandGmail className="mr-1 text-sm" />{" "}
+              <TbBrandGmail className="mr-1 text-xl" />{" "}
               omolara.tlawson@gmail.com
             </a>
           </div>
-          <nav className="flex gap-5 text-xl">
+          <nav className="flex gap-2 sm:gap-5 text-xl">
             <a href="https://www.linkedin.com/in/omolara-tekena-lawson/" target={"_blank"} title="Linkedin">
               <FaLinkedin />
             </a>

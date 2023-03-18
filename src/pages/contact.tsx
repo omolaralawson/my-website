@@ -16,13 +16,13 @@ const contact = (props: Props) => {
         <PageTitle title="Contact Details" />
       </section>
       <section>
-        <div className="container px-4 xl:px-0 flex gap-4 mx-auto py-24">
-          <div className="w-1/2">
+        <div className="container px-4 xl:px-0 flex flex-wrap-reverse sm:flex-nowrap sm:gap-4 mx-auto py-12 sm:py-20">
+          <div className="w-full sm:w-1/2">
             <div>
               <ContactForm />
             </div>
           </div>
-          <div className="w-1/2 flex flex-col items-center justify-center">
+          <div className="w-full sm:w-1/2 flex mb-8 flex-col items-center justify-center">
             <h2 className="font-display text-4xl font-bold mb-4">Omolara Tekena-Lawson</h2>
             <p>
               <a

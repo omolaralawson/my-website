@@ -19,16 +19,16 @@ const about = (props: Props) => {
         <PageTitle title="About Me" />
       </section>
       <section className="">
-        <div className="flex">
-          <div className="w-1/2 bg-orange-100 py-8 px-16">
+        <div className="flex flex-wrap">
+          <div className="w-full sm:w-1/2 bg-orange-100 sm:py-8 sm:px-16">
             <About />
           </div>
-          <div className="w-1/2 bg-orange-100 bg-blend-multiply bg-hero-pattern" />
+          <div className="w-full sm:w-1/2 hidden sm:flex bg-orange-100 bg-blend-multiply bg-hero-pattern" />
         </div>
       </section>
       <section>
-        <div className="container px-4 xl:px-0 flex gap-4 border-b border-slate-300 py-24 mx-auto">
-          <div className="w-1/2">
+        <div className="container px-4 xl:px-0 flex flex-wrap sm:flex-nowrap sm:gap-4 border-b border-slate-300 py-24 mx-auto">
+          <div className="w-full sm:w-1/2">
             <h2 className="text-4xl font-bold font-display mb-4">Areas of Interest</h2>
             <div className="max-w-xl">
               {areasOfInterest?.map((interest) => (
@@ -47,7 +47,7 @@ const about = (props: Props) => {
               ))}
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-full sm:w-1/2">
             <h2 className="text-4xl font-bold font-display mb-4">Skills</h2>
             <div className="max-w-xl">
               {skills?.map((skill) => (

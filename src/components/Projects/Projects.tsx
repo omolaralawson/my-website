@@ -6,7 +6,7 @@ interface Props {}
 
 const Projects = (props: Props) => {
   return (
-    <div className="container px-4 xl:px-0 mx-auto py-20 border-b border-slate-300">
+    <div className="container px-4 xl:px-0 mx-auto py-12 sm:py-20 border-b border-slate-300">
       <div className="text-center mb-12">
         <h2 className="text-4xl mb-2 font-display font-bold">My Projects</h2>
         <p>Take a look at my recent work.</p>
@@ -15,7 +15,7 @@ const Projects = (props: Props) => {
         {projects.map((project) => (
           <Link
             to={project.slug}
-            className="w-1/3 group px-4 mb-12 flex flex-col justify-center items-centerr"
+            className="w-full sm:w-1/3 group px-4 mb-12 flex flex-col justify-center items-centerr"
             key={project.id}
           >
             <img className="mb-4" src={project.image} alt={project.title} />
