@@ -4,7 +4,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { TbBrandGmail, TbLetterK } from "react-icons/tb";
 import { FaGithub, FaMedium, FaLinkedin } from "react-icons/fa";
 
-interface Props {}
+interface Props { }
 
 const Header = (props: Props) => {
   return (
@@ -43,6 +43,7 @@ const Header = (props: Props) => {
           </Link>
         </div>
         <nav className="flex gap-6 items-center text-sm font-medium">
+          <Link activeClassName="text-pink-900" to="/">Home</Link>
           <Link activeClassName="text-pink-900" to="/about">About</Link>
           <Link activeClassName="text-pink-900" to="/me">Me</Link>
           <Link activeClassName="text-pink-900" to="/portfolio">Portfolio</Link>

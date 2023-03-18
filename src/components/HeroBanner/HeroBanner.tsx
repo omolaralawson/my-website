@@ -1,5 +1,4 @@
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 import { IoArrowForward } from "react-icons/io5";

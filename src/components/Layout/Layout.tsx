@@ -8,7 +8,7 @@ interface Props {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-grow">{children}</main>
       <Footer />
