@@ -1,9 +1,19 @@
 import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
-interface Props {}
+interface Props {
+  children: React.ReactNode;
+}
 
-const Layout = (props: Props) => {
-  return <div></div>;
+const Layout: React.FC<Props> = ({ children }) => {
+  return (
+    <div className="flex flex-col">
+      <Header />
+      <main className="flex-grow">{children}</main>
+      <Footer />
+    </div>
+  );
 };
 
 export default Layout;
