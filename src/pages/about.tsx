@@ -23,7 +23,7 @@ const about = (props: Props) => {
           <div className="w-full sm:w-1/2 bg-orange-100 sm:py-8 sm:px-16">
             <About />
           </div>
-          <div className="w-full sm:w-1/2 hidden sm:flex bg-orange-100 bg-blend-multiply bg-no-repeat bg-hero-pattern" />
+          <div className="w-full sm:w-1/2 hidden sm:flex bg-orange-100 bg-blend-multiply bg-no-repeat bg-cover bg-hero-pattern" />
         </div>
       </section>
       <section>
