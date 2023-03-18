@@ -21,7 +21,7 @@ const Header = (props: Props) => {
             </a>
           </div>
           <nav className="flex gap-5 text-xl">
-            <a href="" title="Linkedin">
+            <a href="https://www.linkedin.com/in/omolara-tekena-lawson/" target={"_blank"} title="Linkedin">
               <FaLinkedin />
             </a>
             <a href="" title="Kagle">
@@ -30,7 +30,7 @@ const Header = (props: Props) => {
             <a href="" title="Medium">
               <FaMedium />
             </a>
-            <a href="" title="Github">
+            <a href="https://github.com/omolaralawson/" target={"_blank"} title="Github">
               <FaGithub />
             </a>
           </nav>
@@ -43,14 +43,14 @@ const Header = (props: Props) => {
           </Link>
         </div>
         <nav className="flex gap-6 items-center text-sm font-medium">
-          <Link to="/about">About</Link>
-          <Link to="/me">Me</Link>
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/contact">Contact</Link>
+          <Link activeClassName="text-pink-900" to="/about">About</Link>
+          <Link activeClassName="text-pink-900" to="/me">Me</Link>
+          <Link activeClassName="text-pink-900" to="/portfolio">Portfolio</Link>
+          <Link activeClassName="text-pink-900" to="/contact">Contact</Link>
           <a
             href="https://drive.google.com/file/d/1sYfdWal3v_bWyGkHaVlKYzwC8YqxA09_/view?usp=share_link"
             target={"_blank"}
-            className="flex items-center bg-red-400 bg-gradient-to-r from-purple-700 to-pink-700 text-white py-3 px-6 rounded"
+            className="flex items-center bg-red-400 bg-gradient-to-r from-purple-700 hover:to-purple-700 to-pink-700 hover:from-pink-700 text-white py-3 px-6 rounded"
           >
             Resume <MdOutlineFileDownload className="text-lg ml-2" />
           </a>

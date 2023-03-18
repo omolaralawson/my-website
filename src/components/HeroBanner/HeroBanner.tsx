@@ -12,7 +12,7 @@ const HeroBanner = (props: Props) => {
       <div className="container mx-auto flex justify-center items-center">
         <div className="max-w-xl text-center">
           <h1 className="font-display text-6xl underline font-bold mb-4">
-            Hi, I am Omolara
+            Hi, I am Omolara!
           </h1>
           <p className="mb-8 text-xl">
             A Data Analyst, making a career switch from clinical medicine to
@@ -20,7 +20,7 @@ const HeroBanner = (props: Props) => {
           </p>
           <div>
             <Link
-              className="bg-red-400 bg-gradient-to-r from-purple-700 to-pink-700 text-sm inline-flex items-center justify-between text-white rounded py-3 px-6"
+              className="bg-red-400 bg-gradient-to-r from-purple-700 hover:to-purple-700 to-pink-700 hover:from-pink-700 text-sm inline-flex items-center justify-between text-white rounded py-3 px-6"
               to="/portfolio"
             >
               My Projects
