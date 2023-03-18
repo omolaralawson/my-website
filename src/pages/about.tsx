@@ -27,7 +27,7 @@ const about = (props: Props) => {
         </div>
       </section>
       <section>
-        <div className="container flex gap-4 border-b border-slate-300 py-24 mx-auto">
+        <div className="container px-4 xl:px-0 flex gap-4 border-b border-slate-300 py-24 mx-auto">
           <div className="w-1/2">
             <h2 className="text-4xl font-bold font-display mb-4">Areas of Interest</h2>
             <div className="max-w-xl">
@@ -70,7 +70,7 @@ const about = (props: Props) => {
         </div>
       </section>
       <section>
-        <div className="container justify-center items-center flex mx-auto py-24">
+        <div className="container px-4 xl:px-0 justify-center items-center flex mx-auto py-24">
           <a
             href="https://drive.google.com/file/d/1sYfdWal3v_bWyGkHaVlKYzwC8YqxA09_/view?usp=share_link"
             target={"_blank"}

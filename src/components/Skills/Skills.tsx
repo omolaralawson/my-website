@@ -5,7 +5,7 @@ interface Props {}
 
 const Skills = (props: Props) => {
   return (
-    <div className="container mx-auto py-20">
+    <div className="container px-4 xl:px-0 mx-auto py-20">
       <div className="text-center mb-12">
         <h2 className="text-5xl underline underline-offset-4 font-display font-bold">
           Skills

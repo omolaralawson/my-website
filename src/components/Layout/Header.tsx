@@ -12,7 +12,7 @@ const Header = (props: Props) => {
   return (
     <header className="w-full flex flex-col">
       <div className="h-8 bg-red-400 bg-gradient-to-r from-purple-700 to-pink-700 hidden sm:flex text-white text-xs">
-        <div className="container px-4 lg:px-0 mx-auto flex justify-between items-center">
+        <div className="container px-4 xl:px-0 mx-auto flex justify-between items-center">
           <div>
             <a
               className="flex items-center"
@@ -38,7 +38,7 @@ const Header = (props: Props) => {
           </nav>
         </div>
       </div>
-      <div className="container px-4 lg:px-0 flex flex-wrap sm:flex-nowrap justify-between py-4 sm:py-0 h-auto sm:h-24 items-center mx-auto">
+      <div className="container px-4 xl:px-0 flex flex-wrap sm:flex-nowrap justify-between py-4 sm:py-0 h-auto sm:h-24 items-center mx-auto">
         <div>
           <Link className="font-bold text-3xl font-display" to="/">
             Lara Lawson

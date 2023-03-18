@@ -4,7 +4,7 @@ interface Props {}
 
 const About = (props: Props) => {
   return (
-    <div className="container border-b border-slate-300 mx-auto py-20">
+    <div className="container px-4 lg:px-0 border-b border-slate-300 mx-auto py-8 lg:py-20">
       <div className="mx-auto max-w-4xl">
         <h2 className="font-display font-bold mb-4 text-4xl">About me!</h2>
         <p className="mb-4">

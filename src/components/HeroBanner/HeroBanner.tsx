@@ -7,13 +7,13 @@ interface Props {}
 
 const HeroBanner = (props: Props) => {
   return (
-    <div className="bg-stone-900 bg-blend-multiply bg-opacity-60 bg-contain bg-fixed bg-hero-pattern border-b border-neutral-100 text-white flex h-[600px]">
-      <div className="container mx-auto flex justify-center items-center">
+    <div className="bg-stone-900 bg-blend-multiply bg-opacity-60 bg-contain bg-fixed bg-hero-pattern border-b border-neutral-100 text-white flex py-8 lg:py-0 lg:h-[600px]">
+      <div className="container px-4 xl:px-0 mx-auto flex justify-center items-center">
         <div className="max-w-xl text-center">
-          <h1 className="font-display text-6xl underline font-bold mb-4">
+          <h1 className="font-display text-4xl lg:text-6xl underline font-bold mb-4">
             Hi, I am Omolara!
           </h1>
-          <p className="mb-8 text-xl">
+          <p className="mb-8 text-base lg:text-xl">
             A Data Analyst, making a career switch from clinical medicine to
             Data analysis! Let’s make impact together!
           </p>

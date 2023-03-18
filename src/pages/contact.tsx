@@ -16,7 +16,7 @@ const contact = (props: Props) => {
         <PageTitle title="Contact Details" />
       </section>
       <section>
-        <div className="container flex gap-4 mx-auto py-24">
+        <div className="container px-4 xl:px-0 flex gap-4 mx-auto py-24">
           <div className="w-1/2">
             <div>
               <ContactForm />

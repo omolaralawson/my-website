@@ -6,7 +6,7 @@ interface Props {}
 
 const Projects = (props: Props) => {
   return (
-    <div className="container mx-auto py-20 border-b border-slate-300">
+    <div className="container px-4 xl:px-0 mx-auto py-20 border-b border-slate-300">
       <div className="text-center mb-12">
         <h2 className="text-4xl mb-2 font-display font-bold">My Projects</h2>
         <p>Take a look at my recent work.</p>
