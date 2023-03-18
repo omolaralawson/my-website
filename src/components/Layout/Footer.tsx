@@ -9,13 +9,13 @@ interface Props { }
 
 const Footer = (props: Props) => {
   return <footer className="bg-pink-900 py-16 text-white">
-    <div className="container flex gap-8 justify-between mx-auto">
-      <div className="w-1/3">
+    <div className="container px-4 lg:px-0 flex gap-8 flex-wrap sm:flex-nowrap justify-between mx-auto">
+      <div className="w-full sm:w-1/3">
         <h4 className="font-display text-xl font-bold mb-4">About This Page</h4>
         <p className="mb-2">This website was coded and hosted using <a className="underline hover:no-underline" href="https://www.gatsbyjs.com/" target={"_blank"}>Gatsby <RiGatsbyFill className="inline text-lg" /></a> + <a className="underline hover:no-underline" href="https://www.netlify.com/" target={"_blank"}>Netlity <SiNetlify className="inline text-lg" /></a>. The code can be found <a className="underline hover:no-underline" href="https://github.com/omolaralawson/my-website" target={"_blank"}>here.</a></p>
         <p className="text-sm">Copyright &copy;2023 | All rights reserved</p>
       </div>
-      <div className="w-2/3">
+      <div className="w-full sm:w-2/3">
         <h4 className="font-display font-bold text-xl mb-4">Find me if you can</h4>
         <div className="flex items-center mb-4">
           <IoLocationSharp className="text-xl mr-2" /> A Nigerian 🇳🇬 living in the beautiful city of London 🇬🇧 
