@@ -22,7 +22,7 @@ const index = (props: Props) => {
       <section>
         <AreasOfInterest />
       </section>
-      <section className="bg-stone-800 text-white bg-blend-multiply bg-contain bg-fixed bg-hero-pattern">
+      <section className="bg-stone-800 text-white bg-blend-multiply bg-no-repeat bg-contain bg-fixed bg-hero-pattern">
         <Skills />
       </section>
       <section>
