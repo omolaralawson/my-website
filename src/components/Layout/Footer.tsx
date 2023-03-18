@@ -18,7 +18,7 @@ const Footer = (props: Props) => {
       <div className="w-2/3">
         <h4 className="font-display font-bold text-xl mb-4">Find me if you can</h4>
         <div className="flex items-center mb-4">
-          <IoLocationSharp className="text-xl mr-2" /> A Nigerian 🇳🇬  Located in the beautiful city of London 🇬🇧 
+          <IoLocationSharp className="text-xl mr-2" /> A Nigerian 🇳🇬 living in the beautiful city of London 🇬🇧 
         </div>
         <nav className="flex gap-2 flex-wrap">
           <a
@@ -38,14 +38,14 @@ const Footer = (props: Props) => {
           </a> /
           <a
             className="flex items-center mb-4"
-            href=""
+            href="https://www.kaggle.com/omolaratekenalawson"
             title="Kagle"
           >
             <TbLetterK className="mr-1 text-xl" /> Kaggle
           </a> /
           <a
             className="flex items-center mb-4"
-            href=""
+            href="https://medium.com/@omolaralawson"
             title="Medium"
           >
             <FaMedium className="mr-1 text-xl" /> Medium blog

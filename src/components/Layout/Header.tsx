@@ -24,10 +24,10 @@ const Header = (props: Props) => {
             <a href="https://www.linkedin.com/in/omolara-tekena-lawson/" target={"_blank"} title="Linkedin">
               <FaLinkedin />
             </a>
-            <a href="" title="Kagle">
+            <a href="https://www.kaggle.com/omolaratekenalawson" title="Kaggle">
               <TbLetterK />
             </a>
-            <a href="" title="Medium">
+            <a href="https://medium.com/@omolaralawson" title="Medium">
               <FaMedium />
             </a>
             <a href="https://github.com/omolaralawson/" target={"_blank"} title="Github">

@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.9.11",
     "@mdx-js/react": "^2.3.0",
     "@react-aria/ssr": "^3.5.0",
     "gatsby": "^5.7.0",
@@ -32,7 +33,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.8.0"
+    "react-hook-form": "^7.43.7",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.8.0",
+    "yup": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "^18.15.0",
