@@ -24,10 +24,10 @@ const Header = (props: Props) => {
             <a href="https://www.linkedin.com/in/omolara-tekena-lawson/" target={"_blank"} title="Linkedin">
               <FaLinkedin />
             </a>
-            <a href="https://www.kaggle.com/omolaratekenalawson" title="Kaggle">
+            <a href="https://www.kaggle.com/omolaratekenalawson" target={"_blank"} title="Kaggle">
               <TbLetterK />
             </a>
-            <a href="https://medium.com/@omolaralawson" title="Medium">
+            <a href="https://medium.com/@omolaralawson" target={"_blank"} title="Medium">
               <FaMedium />
             </a>
             <a href="https://github.com/omolaralawson/" target={"_blank"} title="Github">
@@ -39,13 +39,12 @@ const Header = (props: Props) => {
       <div className="container flex justify-between h-24 items-center mx-auto">
         <div>
           <Link className="font-bold text-3xl font-display" to="/">
-            Dr. Lawson
+            Lara Lawson
           </Link>
         </div>
         <nav className="flex gap-6 items-center text-sm font-medium">
           <Link activeClassName="text-pink-900" to="/">Home</Link>
           <Link activeClassName="text-pink-900" to="/about">About</Link>
-          <Link activeClassName="text-pink-900" to="/me">Me</Link>
           <Link activeClassName="text-pink-900" to="/portfolio">Portfolio</Link>
           <Link activeClassName="text-pink-900" to="/contact">Contact</Link>
           <a

@@ -25,6 +25,7 @@ const Footer = (props: Props) => {
             className="flex items-center mb-4"
             href="mailto:omolara.tlawson@gmail.com"
             title="email"
+            target={"_blank"}
           >
             <TbBrandGmail className="mr-1 text-xl" />{" "}
             Email: omolara.tlawson@gmail.com
@@ -33,6 +34,7 @@ const Footer = (props: Props) => {
             className="flex items-center mb-4"
             href="https://www.linkedin.com/in/omolara-tekena-lawson/"
             title="Linkedin"
+            target={"_blank"}
           >
             <FaLinkedin className="mr-1 text-xl" /> Linkedin
           </a> /
@@ -40,6 +42,7 @@ const Footer = (props: Props) => {
             className="flex items-center mb-4"
             href="https://www.kaggle.com/omolaratekenalawson"
             title="Kagle"
+            target={"_blank"}
           >
             <TbLetterK className="mr-1 text-xl" /> Kaggle
           </a> /
@@ -47,6 +50,7 @@ const Footer = (props: Props) => {
             className="flex items-center mb-4"
             href="https://medium.com/@omolaralawson"
             title="Medium"
+            target={"_blank"}
           >
             <FaMedium className="mr-1 text-xl" /> Medium blog
           </a> /
@@ -54,6 +58,7 @@ const Footer = (props: Props) => {
             className="flex items-center mb-4"
             href="https://github.com/omolaralawson/"
             title="Github"
+            target={"_blank"}
           >
             <FaGithub className="mr-1 text-xl" /> Github (@omolaralawson)
           </a>

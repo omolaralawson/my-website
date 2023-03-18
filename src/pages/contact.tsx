@@ -23,7 +23,7 @@ const contact = (props: Props) => {
             </div>
           </div>
           <div className="w-1/2 flex flex-col items-center justify-center">
-            <h2 className="font-display text-4xl font-bold mb-4">Dr. Omolara Tekena-Lawson</h2>
+            <h2 className="font-display text-4xl font-bold mb-4">Omolara Tekena-Lawson</h2>
             <p>
               <a
                 className="flex text-xl items-center underline hover:no-underline"
